@@ -1,49 +1,43 @@
-## Pull request checklist
+# Background (optional):
+A clear description of the high level effort that this pull request is
+a part of. Anyone in the organization can see this change and may not
+have the same context as you.
 
-Please check if your PR fulfills the following requirements:
-- [ ] Tests for the changes have been added (for bug fixes / features)
-- [ ] Docs have been reviewed and added / updated if needed (for bug fixes / features)
-- [ ] Build was run locally and any changes were pushed
-- [ ] Lint has passed locally and any fixes were made for failures
+# Problem:
+A clear description of the problem. The problem statement should be
+written in terms of a specific symptom that affects users or the
+business. The problem statement should not be written in terms of the
+solution.
 
+# Solution:
+A clear description of the high-level solution you have chosen. If
+there were other possible solutions that you considered and rejected,
+please mention those as well. Please do not describe implementation
+details when writing about the solution, those should go into the
+implementation section.
 
-## Pull request type
+# Testing
+Describe explicitly how this change was tested. Were we able to
+recreate the issue? Were we able to write a test case that failed
+before that passes now?
 
-<!-- Please do not submit updates to dependencies unless it fixes an issue. --> 
+# Implementation (optional):
+The implementation details of the solution.
 
-<!-- Please try to limit your pull request to one type, submit multiple pull requests if needed. --> 
+# Notes To Reviewers (optional):
+Any extra information a reviewer may need to know before reviewing
+your change. For example here you might want to describe which files
+should be looked at first or which files are auto-generated.
 
-Please check the type of change your PR introduces:
-- [ ] Bugfix
-- [ ] Feature
-- [ ] Code style update (formatting, renaming)
-- [ ] Refactoring (no functional changes, no api changes)
-- [ ] Build related changes
-- [ ] Documentation content changes
-- [ ] Other (please describe): 
+# Deployment Plan (optional):
+Some changes get more complicated and may need changes in multiple
+repositories or may require infrastructure changes. Describe how these
+changes will be smoothly deployed.
 
+# Future work (optional):
+A description of what follow up work is explicitly not being done in
+this change.
 
-## What is the current behavior?
-<!-- Please describe the current behavior that you are modifying or link to a relevant issue. -->
-
-Issue Number: N/A
-
-
-## What is the new behavior?
-<!-- Please describe the behavior or changes that are being added by this PR. -->
-
--
--
--
-
-## Does this introduce a breaking change?
-
-- [ ] Yes
-- [ ] No
-
-<!-- If this introduces a breaking change, please describe the impact and migration path for existing applications below. -->
-
-
-## Other information
-
-<!-- Any other information that is important to this PR such as screenshots of how the component looks before and after the change. -->
+# Bonus (optional):
+A description of extra problems you've solved in this change. Did you
+reformat an unrelated docstring? Point it out here
