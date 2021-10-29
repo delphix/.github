@@ -1,53 +1,73 @@
 <!--
-# Context:
-A clear description of the high level effort that this pull request is
-a part of. Anyone in the organization can see this change and may not
-have the same context as you.
+### Background
+Provide a clear description of the high-level effort with which this
+pull request is associated. Recall that while anyone in the organization
+can see this pull request, not everyone necessarily has the same context
+as you. If applicable, link to design documents or high-level tracking
+epics here.
 -->
-# Problem:
+### Problem
 <!--
-A clear description of the problem. The problem statement should be
-written in terms of a specific symptom that affects users or the
-business. The problem statement should not be written in terms of the
-solution.
--->
-# Solution:
-<!--
-A clear description of the high-level solution you have chosen. If
-there were other possible solutions that you considered and rejected,
-please mention those as well. Please do not describe implementation
-details when writing about the solution, those should go into the
-implementation section.
--->
-# Testing
-<!--
-Describe explicitly how this change was tested. Were we able to
-recreate the issue? Were we able to write a test case that failed
-before that passes now?
+Provide a clear description of the high-level problem you are trying to
+solve. The problem statement should be written in terms of a specific
+symptom that affects users or the business. The problem statement should
+not be written in terms of the solution. If possible, include a minimal
+reproducible example (MRE) with steps to reproduce, expected results,
+and actual results.
 -->
 <!--
-# Implementation:
-The implementation details of the solution.
+### Evaluation
+If the cause of the problem is not obvious, provide a root-cause
+analysis (RCA), ideally using the Five Whys iterative interrogative
+technique or some other form of analytical reasoning.
+-->
+### Solution
+<!--
+Provide a clear description of the high-level solution you have chosen.
+If there were other possible solutions that you considered and rejected,
+mention those along with the corresponding reasoning. Do not describe
+implementation details when writing about the solution; these should go
+into the implementation section instead.
+-->
+### Testing Done
+<!--
+Provide a clear description of how this change was tested. At minimum
+this should include proof that a computer has executed the changed
+lines. Ideally this should include an automated test or an explanation
+as to why this pull request has no tests.
 -->
 <!--
-# Notes To Reviewers:
-Any extra information a reviewer may need to know before reviewing
-your change. For example here you might want to describe which files
-should be looked at first or which files are auto-generated.
+### Implementation
+Describe the implementation details of the solution. Generally the
+reasoning behind any non-obvious code should be recorded in code
+comments. However, code comments should always describe the current
+state of the code; in contrast, this section may be useful to describe
+the relationship between the original code and the code being proposed
+in this pull request.
 -->
 <!--
-# Deployment Plan:
-Some changes get more complicated and may need changes in multiple
-repositories or may require infrastructure changes. Describe how these
-changes will be smoothly deployed.
+### Notes to Reviewers
+Provide any extra information a reviewer may need to know before
+evaluating your pull request. For example, you may wish to describe
+which files should be reviewed first or which files are auto-generated.
+If the review tool cannot detect a file move, you may wish to link to a
+patch comparing the old file and the new file.
 -->
 <!--
-# Future work:
-A description of what follow up work is explicitly not being done in
-this change.
+### Deployment Plan
+Describe how the code in this pull request will be deployed. Some
+deployments are complicated and may require flag days between multiple
+repositories or the provisioning of new infrastructure. Describing your
+deployment plan allows reviewers to ensure that your work will not cause
+any unnecessary interruption to end users.
 -->
 <!--
-# Bonus:
-A description of extra problems you've solved in this change. Did you
-reformat an unrelated docstring? Point it out here
+### Future Work
+Provide a description of any possible follow-up work that is explicitly
+not being done in this pull request.
+-->
+<!--
+### Bonus
+Provide a description of any extra problems you have solved in this pull
+request.
 -->
